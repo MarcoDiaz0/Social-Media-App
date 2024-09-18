@@ -1,0 +1,83 @@
+
+.flexC {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.numFont {
+  font-family: "Inconsolata"
+}
+.btnStyle{
+  margin: 5px 3px;
+  border: solid 2px blueviolet;
+  border-radius:10px;
+  padding: 6px;
+  transition: all 0.3s;
+}
+.btnStyle:hover {
+  background-color: rgb(138, 43, 227);
+}
+
+.sectionNow{
+  text-decoration: underline;
+  color: blueviolet;
+  letter-spacing: 1px;
+}
+::-webkit-scrollbar {
+  
+  padding: 3px;
+  width: 8px;
+}
+
+/* Style the scrollbar handle */
+::-webkit-scrollbar-thumb {
+  background: blueviolet;
+  width: 50%;
+  border-radius: 10px;
+  margin: 3px;
+}
+.deleteBtn{
+  transition: all 0.5;
+}
+.deleteBtn:hover {
+  background-color: rgba(255, 00, 00, 0.6);
+}
+.editBtn{
+  transition: all 0.5;
+}
+.editBtn:hover {
+  background-color: rgba(00, 00, 255, 0.6);
+}
+.inputStyle {
+  outline: none;
+  color: #03012C;
+  border: solid 2px blueviolet;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgb(214, 202, 225); 
+  margin: 8px 0px;
+}
+.custom-file-upload {
+  display: inline-block;
+  cursor: pointer;
+}
+input[type="file"] {
+  display: none;
+}
+.changeText:hover{
+  width: 130px;
+  font-size:large;
+}
+.changeText:hover:before{
+  width: 300px;
+  content: "add post";
+}
+.changeText{
+  font-size: 0px;
+}
+.commentSpace::-webkit-scrollbar {
+  display: none;
+}
+p::-webkit-scrollbar {
+  display: none;
+}
